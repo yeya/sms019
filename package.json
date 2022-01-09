@@ -1,0 +1,24 @@
+{
+  "name": "019sms",
+  "version": "0.0.1",
+  "description": "A json wrapper API for 019 mobile xml API",
+  "main": "index.js",
+  "homepage": "https://new.019sms.co.il/pdf_help/API/SMS_API.pdf",
+  "repository": "https://github.com/yeya/sms019.git",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "sms",
+    "019"
+  ],
+  "author": "Yehuda Y <yehuda@centerpoint.co.il>",
+  "license": "MIT",
+  "engines": {
+    "node": "^12.20.0 || ^14.13.1 || >=16.0.0"
+  },
+  "dependencies": {
+    "fast-xml-parser": "^4.0.0",
+    "got": "^11.8.3"
+  }
+}
