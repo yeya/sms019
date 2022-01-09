@@ -19,7 +19,7 @@ describe('Testing SMS Class functions', () => {
     });
 
     it ('Generate xml data', () => {
-        expect(new Sms('sample-token').generateXML(sampleMessage)).toEqual('<sms><user><username>test</username>' +
+        expect(new Sms('sample-token').generateXML(sampleMessage)).toEqual('<?xml version=\'1.0\' encoding=\'UTF-8\'?><sms><user><username>test</username>' +
             '</user><source>0541234567</source><message>This is a test message</message>' +
             '<destinations><phone>0541234567</phone></destinations></sms>')
     });
