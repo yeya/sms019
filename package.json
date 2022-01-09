@@ -6,7 +6,7 @@
   "homepage": "https://new.019sms.co.il/pdf_help/API/SMS_API.pdf",
   "repository": "https://github.com/yeya/sms019.git",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "keywords": [
     "sms",
@@ -20,5 +20,8 @@
   "dependencies": {
     "fast-xml-parser": "^4.0.0",
     "got": "^11.8.3"
+  },
+  "devDependencies": {
+    "jest": "^27.4.7"
   }
 }
